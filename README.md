@@ -33,33 +33,3 @@ project/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Install Dependencies
-Make sure **Python 3.8+** is installed, then run:
-```bash
-pip install -r requirements.txt
-
-2️⃣ Prepare Dataset
-Download historical stock data from:
-Yahoo Finance
-Kaggle Datasets
-Save it as historical_stock_data.csv in the data/ folder.
-
-3️⃣ Run Preprocessing
-python src/preprocess.py
-
-4️⃣ Train Models
-Train LSTM:
-python src/train_lstm.py
-Train RNN:
-python src/train_rnn.py
-
-5️⃣ Make Predictions
-python src/predict.py
-
-6️⃣ Visualize Results
-python src/visualize.py
-
